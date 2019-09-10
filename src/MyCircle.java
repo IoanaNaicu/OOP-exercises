@@ -21,8 +21,12 @@ public class MyCircle {
         return center.getY();
     }
 
-    public void setCenteX(int x){
+    public void setCenterX(int x){
         this.center.setX(x);
+    }
+
+    public void setCenterY(int y){
+        this.center.setY(y);
     }
 
     public void setCenter(MyPoint center) {

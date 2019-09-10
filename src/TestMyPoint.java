@@ -25,8 +25,10 @@ public class TestMyPoint {
       //  System.out.println(c1.getCenter());
         c1.setCenterXY(1,1);
        // System.out.println(c1);
+        c1.setCenteX(7);
+        System.out.println(c1);
 
-       MyCircle c2 = new MyCircle(1,2,9);
+       //MyCircle c2 = new MyCircle(1,2,9);
         //System.out.println(c2.getCenter());
 
     }
